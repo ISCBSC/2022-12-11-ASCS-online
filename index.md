@@ -390,12 +390,12 @@ of code below the Schedule `<h2>` header below with
       </tr>
       <tr>     <!-- row 2   -->
         <td>Morning session</td>
-        <td>09:00</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
       </tr>
       <tr>               <!-- row 3   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>09:00</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
+      </tr>  
+      <tr>  
         <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
       </tr>
     </table>

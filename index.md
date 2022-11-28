@@ -389,13 +389,56 @@ of code below the Schedule `<h2>` header below with
         <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
       <tr>     <!-- row 2   -->
-        <td>Morning session</td>
+        <td colspan="2">Morning session</td>
       </tr>
       <tr>               <!-- row 3   -->
         <td>09:00</td>        <!-- time    -->
         <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
       </tr>  
+      <tr>               <!-- row 4   -->
+        <td>09:25</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/02-basic-rstudio/index.html" target="_blank">Navigating RStudio and R Markdown Documents</a></td>        <!-- content -->
+      </tr>  
+      <tr>               <!-- row 5   -->
+        <td>10:00</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/03-rmarkdown-file/index.html" target="_blank">Introduction to Working with R Markdown Files</a></td>        <!-- content -->
+      </tr>  
+      <tr>               <!-- row 6   -->
+        <td>10:25</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/04-good-project/index.html" target="_blank">Good Practices for Managing Projects in RStudio</a></td>        <!-- content -->
+      </tr>  
+      <tr>               <!-- row 7   -->
+        <td>11:10</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/05-setup-versioning/index.html" target="_blank">Getting Your project set up with Version Control in RStudio</a></td>        <!-- content -->
+      </tr>  
+      <tr>     <!-- row 8   -->
+        <td>11:50</td>        <!-- time    -->
+        <td>Q&A</td>
+      </tr>
+      <tr>     <!-- row 9   -->
+        <td colspan="2">Break</td>
+      </tr>     
+      <tr>     <!-- row 2   -->
+        <td colspan="2">Afternoon session</td>
+      </tr>      
+      <tr>               <!-- row 10   -->
+        <td>13:00</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/07-plots-figures/index.html" target="_blank">Adding Code-Generated Plots and Figures</a></td>        <!-- content -->
+      </tr>  
+      <tr>               <!-- row 11   -->
+        <td>14:15</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/08-code-chunks/index.html" target="_blank">Reproducible & Efficient Methods of Using Code Chunks</a></td>        <!-- content -->
+      </tr>  
+      <tr>               <!-- row 12   -->
+        <td>15:30</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/10-github/index.html" target="_blank">Collaborating via Github</a></td>        <!-- content -->
+      </tr>        
+      <tr>     <!-- row 13   -->
+        <td>15:55</td>        <!-- time    -->
+        <td>Q&A</td>
+      </tr>      
       <tr>  
+        <td>Feedback</td>
         <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
       </tr>
     </table>

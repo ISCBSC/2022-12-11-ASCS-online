@@ -380,16 +380,28 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
-Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
-{% endif %}
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>     <!-- row 2   -->
+        <td>Morning session</td>
+        <td>09:00</td>        <!-- time    -->
+        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
@@ -397,9 +409,6 @@ See the contents of the _includes/custom-schedule.html file for an example of
 how one of these schedule tables is constructed.
 {% endcomment %}
 
-{% if site.pilot %}
-The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. Please [contact the workshop organisers](#contact) if you would like more information about the planned schedule.
-{% endif %}
 
 <hr/>
 

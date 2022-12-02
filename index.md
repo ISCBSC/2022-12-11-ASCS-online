@@ -159,7 +159,7 @@ This block displays the date and links to Google Calendar.
   <strong>When:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
-  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=ASCS+Reproducible+Scientific+Analysis+with+R&iso=20221211T09&p1=73&ah=7">Check your timezone.</a>
+  Please check <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=ASCS+Reproducible+Scientific+Analysis+with+R&iso=20221211T09&p1=73&ah=7">your timezone</a>.
 </p>
 {% endif %}
 
@@ -356,6 +356,17 @@ of code below the Schedule `<h2>` header below with
 
 <div class="row">        <!-- first two days -->
   <div class="col-md-6"> <!-- left column -->
+        <h3>Day 0</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Survey</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>     <!-- row 2   -->
+        <td>Software</td>
+        <td><a href="#setup">Setup</a></td>
+      </tr>
+    </table>
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr>               <!-- row 1   -->

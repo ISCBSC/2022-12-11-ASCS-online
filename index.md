@@ -14,7 +14,7 @@ humantime: "9:00 am - 4:00 pm UTC+6"    # human-readable times for the workshop 
 startdate: 2022-12-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-12-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Batool Almarzouq", "Joel Nitta", "Pradeep Eranti"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Kozo Nishida"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["rsg-chair@iscbsc.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/ascs2022_reproducilbity_workshop # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -159,6 +159,7 @@ This block displays the date and links to Google Calendar.
   <strong>When:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
+  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=ASCS+Reproducible+Scientific+Analysis+with+R&iso=20221211T09&p1=73&ah=7">Check your timezone.</a>
 </p>
 {% endif %}
 
@@ -366,23 +367,23 @@ of code below the Schedule `<h2>` header below with
       </tr>
       <tr>               <!-- row 3   -->
         <td>09:00</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/01-introduction/index.html" target="_blank">Scientific reproducibility: What is it for?</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 4   -->
         <td>09:25</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/02-basic-rstudio/index.html" target="_blank">Navigating RStudio and R Markdown Documents</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/02-basic-rstudio/index.html" target="_blank">Navigating RStudio and Quarto Documents</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 5   -->
         <td>10:00</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/03-rmarkdown-file/index.html" target="_blank">Introduction to Working with R Markdown Files</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-quarto-documents/index.html" target="_blank">Introduction to Working with Quarto Documents</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 6   -->
         <td>10:25</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/04-good-project/index.html" target="_blank">Good Practices for Managing Projects in RStudio</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/04-good-project/index.html" target="_blank">Good Practices for Managing Projects in RStudio</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 7   -->
         <td>11:10</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/05-setup-versioning/index.html" target="_blank">Getting Your project set up with Version Control in RStudio</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/05-setup-versioning/index.html" target="_blank">Getting Your project set up with Version Control in RStudio</a></td>        <!-- content -->
       </tr>  
       <tr>     <!-- row 8   -->
         <td>11:50</td>        <!-- time    -->
@@ -396,15 +397,15 @@ of code below the Schedule `<h2>` header below with
       </tr>      
       <tr>               <!-- row 10   -->
         <td>13:00</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/07-plots-figures/index.html" target="_blank">Adding Code-Generated Plots and Figures</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/07-plots-figures/index.html" target="_blank">Adding Code-Generated Plots and Figures</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 11   -->
         <td>14:15</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/08-code-chunks/index.html" target="_blank">Reproducible & Efficient Methods of Using Code Chunks</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/08-code-chunks/index.html" target="_blank">Reproducible & Efficient Methods of Using Code Chunks</a></td>        <!-- content -->
       </tr>  
       <tr>               <!-- row 12   -->
         <td>15:30</td>        <!-- time    -->
-        <td><a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/10-github/index.html" target="_blank">Collaborating via Github</a></td>        <!-- content -->
+        <td><a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/10-github/index.html" target="_blank">Collaborating via Github</a></td>        <!-- content -->
       </tr>        
       <tr>     <!-- row 13   -->
         <td>15:55</td>        <!-- time    -->
@@ -454,8 +455,20 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser and an <a href="https://github.com/signup">an account on GitGub</a>.
 </p>
+
+<p>
+  Required software:
+  <ul>
+    <li><a href="https://www.r-project.org/">R</a></li>
+    <li><a href="https://posit.co/download/rstudio-desktop/">Rstudio</a></li>
+    <li><a href="https://quarto.org/docs/get-started/">Quarto</a></li>
+    <li><a href="https://github.com/git-guides/install-git">Git</a></li>
+  </ul>
+  For more information on installing R, Rstudio, and Git, see the <a href="https://carpentries-incubator.github.io/Reproducible-Publications-with-RStudio/setup.html">Pre-Workshop Setup page</a>.
+</p>
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the

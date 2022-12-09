@@ -356,15 +356,11 @@ of code below the Schedule `<h2>` header below with
 
 <div class="row">        <!-- first two days -->
   <div class="col-md-6"> <!-- left column -->
-        <h3>Day 0</h3>
+        <h3>Before workshop</h3>
     <table class="table table-striped">
       <tr>               <!-- row 1   -->
         <td>Survey</td>
         <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr>     <!-- row 2   -->
-        <td>Software</td>
-        <td><a href="#setup">Setup</a></td>
       </tr>
     </table>
     <h3>Day 1</h3>
@@ -372,6 +368,10 @@ of code below the Schedule `<h2>` header below with
       <tr>               <!-- row 1   -->
         <td>Before starting</td>
         <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>     <!-- row 2   -->
+        <td>08:30</td>
+        <td>Software <a href="#setup">Setup</a> (Optional)</td>
       </tr>
       <tr>     <!-- row 2   -->
         <td colspan="2">Morning session</td>
